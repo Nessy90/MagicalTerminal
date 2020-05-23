@@ -1,0 +1,42 @@
+  602  mkdir Katalog
+  603  cd Katalog
+  604  git init
+  605  touch processes.txt
+  606  cp processes.txt copy.txt
+  607  rm copy.txt 
+  608  ps aux > processes.txt 
+  609  cp processes.txt copy.txt
+  610  mkdir Kopia
+  611  cd Kopia
+  612  mv copy.txt ..
+  613  mv copy.txt .
+  614  ls
+  615  cd ..
+  616  ls
+  617  mv copy.txt Kopia/
+  618  wc processes.txt 
+  619  wc -l processes.txt 
+  620  247 >> processes.txt 
+  621  "247" >> processes.txt 
+  622  wc -l processes.txt  >> processes.txt 
+  623  grep -rni --color /bin
+  624  grep -rni --color /bin >> processes.txt 
+  625  grep -rni --color /bin >> pro.txt
+  626  pro.txt >> processes.txt 
+  627  rm pro.txt
+  628  rm processes.txt 
+  629  wc -l processes.txt  >> processes.txt 
+  630  grep -rni --color /bin >> pro.txt
+  631  grep -rni --color /bin
+  632  >> processes.txt 
+  633  grep -rni --color /bin
+  634  grep -rni --color /bin >> file.txt
+  635  file.txt >> processes.txt 
+  636  cat processes.txt file.txt > Processes.txt
+  637  rm file.txt
+  638  rm processes.txt 
+  639  mv Processes.txt processes.txt
+  640  history
+  641  history --help
+  642  tail -39 history
+  643  history > history.txt
